@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Ignore secrets
+.env
+src/main/resources/application.properties
+
+# Ignore build and log files
+/target
+*.log
